@@ -1,0 +1,71 @@
+#heading{
+    color: red;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button{
+    color: rgb(16, 16, 16);
+    text-decoration:none;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    border-bottom: 3px solid grey;
+    flex-wrap:wrap ;
+    gap: 10px;
+    padding: 20px;
+    color: red;
+}
+ #categories button{
+   
+    color:inherit;
+    background: none;
+    border: none;
+    font-size:25px ;
+     border-bottom: 1px solid grey;
+  
+     cursor: pointer;
+ 
+    padding: 20px;
+
+} 
+#search{
+justify-content: space-between;
+color: red;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+b
+#categories button{
+    color:white;
+}
+#categories button.active{
+    color:rgb(148, 10, 10);
+    border-bottom:1px solid grey;
+}
+#searchForm{
+    display: flex;
+    gap:10px;
+    padding:10px;
+}
+#searchForm button{
+    background-color: red;
+    color:white;
+    padding: 10px 5px;
+}
+
+#msg{
+    text-align:center;
+    font-weight:bold ;
+}
